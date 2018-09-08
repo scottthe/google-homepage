@@ -1,0 +1,107 @@
+*{
+    overflow:visible;
+    
+}
+.head{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+
+.head li{
+    float: right;
+    display: block;
+    
+    text-align: right;
+    padding: 7px 12px;
+    text-decoration: none;
+    
+    font-size:13.3333px;
+}
+.signin{
+    background-color:#4285f4;
+    border:1px solid #4285f4;
+    border-radius: 2px;
+    color:white;
+    font-family:sans-serif;
+    
+    margin-right: 25px;
+}
+.dots{
+    width:19px;
+    height:19px;
+   
+    margin-right:10px;
+
+    opacity: 0.55;
+}
+.images,
+.gmail{
+    font-family:arial;
+}
+.center{
+    text-align:center;
+    height:381px;
+    
+}
+
+.textbox{
+    width:500px;
+    height:44px;
+}
+.google{
+    margin-top:180px;
+
+}
+form{
+    display:block;
+    margin-top:42px;
+}
+.textbox{
+border:1px solid #E7E7E7;
+border-radius: 2px;
+box-shadow: 0 1px 2px 0.5px #ccc;
+background-image:url("https://jhoneguitar.github.io/google-homepage/css/images/google-microphone.png");
+background-repeat: no-repeat;
+background-size: 30px;
+background-position: 97% 50%;
+font-size:14pt;
+}
+button{
+    margin-top:10px;
+    padding:8px 20px;
+    background-color: #f2f2f2;
+    margin: 11px 4px;
+    border:1px solid #f2f2f2;
+    font-weight:bold;
+    color:#757575;
+}
+footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align:center;
+    
+}
+footer ul li{
+
+display:inline;
+padding: 0px 12px;
+text-decoration: none;
+font-family: inherit;
+color: #757575;
+}
+footer .left{
+float:left;
+
+}
+footer .right{
+    display:block;
+  float:right;  
+}
